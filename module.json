@@ -1,0 +1,25 @@
+{
+  "id": "duality-die",
+  "title": "Duality Die for dnd5e",
+  "description": "Automatically adds an extra d20 to rolls and displays the comparison.",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "12",
+    "verified": "13"
+  },
+  "authors": [
+    {
+      "name": "ArcaneSpark"
+    }
+  ],
+  "relationships": {
+    "systems": [
+      {
+        "id": "dnd5e",
+        "type": "system",
+        "compatibility": "~4.0"
+      }
+    ]
+  },
+  "esmodules": ["scripts/main.js"]
+}
